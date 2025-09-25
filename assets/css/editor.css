@@ -1,0 +1,26 @@
+/* Estilos base para el contenido de CKEditor 5 */
+.ck-editor__editable_inline {
+  min-height: 300px;
+}
+
+.ck-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ck-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ck-content table,
+.ck-content th,
+.ck-content td {
+  border: 1px solid #dee2e6;
+}
+
+.ck-content th,
+.ck-content td {
+  padding: 0.5rem;
+}
+

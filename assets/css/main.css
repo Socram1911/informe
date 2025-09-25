@@ -1,0 +1,5 @@
+/* Estilos base y utilidades simples */
+body { background: #f7f7f7; }
+.navbar-brand { font-weight: 600; }
+.ck-editor__editable { background: #fff; }
+.table td, .table th { vertical-align: middle; }
