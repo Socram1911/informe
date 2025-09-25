@@ -39,45 +39,6 @@ SGI es una aplicación web desarrollada en PHP diseñada para facilitar la creac
     -   **Bootstrap 5**: Para el diseño y la interfaz de usuario.
     -   **CKEditor 5**: Como editor de texto enriquecido.
 
-## Instalación y Configuración
-
-1.  **Clonar el Repositorio**:
-    ```bash
-    git clone <url-del-repositorio>
-    cd informe2
-    ```
-
-2.  **Configurar el Entorno**:
-    -   Asegúrate de tener un servidor web local como XAMPP, WAMP o similar con PHP 8+ y MySQL.
-    -   Copia los archivos del proyecto en el directorio `htdocs` (o `www`) de tu servidor.
-
-3.  **Base de Datos**:
-    -   Crea una nueva base de datos en tu gestor de MySQL (ej. `informes_db`).
-    -   Importa la estructura y los datos iniciales desde el archivo `config/bd.sql`.
-
-4.  **Configurar la Conexión**:
-    -   Edita el archivo `config/database.php` y actualiza las credenciales de conexión a tu base de datos:
-      ```php
-      define('DB_HOST', 'localhost');
-      define('DB_NAME', 'informes_db'); // Tu base de datos
-      define('DB_USER', 'root');        // Tu usuario
-      define('DB_PASS', '');            // Tu contraseña
-      ```
-
-5.  **Instalar Dependencias**:
-    -   Asegúrate de tener [Composer](https://getcomposer.org/) instalado.
-    -   Abre una terminal en la raíz del proyecto y ejecuta:
-      ```bash
-      composer install
-      ```
-
-6.  **Permisos de Carpetas**:
-    -   Asegúrate de que el servidor web tenga permisos de escritura sobre la carpeta `uploads/` para poder guardar las imágenes subidas por los usuarios.
-
-7.  **Acceder a la Aplicación**:
-    -   Inicia tu servidor web.
-    -   Abre tu navegador y ve a `http://localhost/informe2`.
-    -   Puedes iniciar sesión con los usuarios de ejemplo definidos en `config/bd.sql`.
 
 ## Estructura del Proyecto
 
