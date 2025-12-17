@@ -2,6 +2,6 @@
 /vendor
 /uploads
 /reportes_generados
-/config/database.php
+
 composer.lock
-.htaccess
+
